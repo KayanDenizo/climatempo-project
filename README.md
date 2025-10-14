@@ -1,59 +1,77 @@
-# 🌤️ Clima Tempo - Previsão do Tempo
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/KayanDenizo/climatempo-project)
+# 🌤️ Clima Tempo - Weather App
 
-## Overview
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-Clima Tempo is a clean and simple web application that provides real-time weather forecasts for any city in the world. Using the OpenWeatherMap API, it fetches and displays current weather conditions, including temperature, wind speed, wind direction, and a brief description. The interface is designed to be modern, responsive, and user-friendly.
+## 🌟 Overview
 
-## Features
+**Clima Tempo** is a clean, responsive web app that provides real-time weather forecasts for any city in the world. It uses the OpenWeatherMap API to fetch current weather data like temperature, wind speed, wind direction, and description.  
 
-- **Real-time Weather Data:** Get up-to-date weather information by searching for a city name.
-- **Detailed Information:** Displays current temperature (°C), wind speed (km/h), wind direction, and a capitalized weather description.
-- **Dynamic UI:** Features a loading state during API calls and provides clear error messages for invalid searches or network issues.
-- **Responsive Design:** The layout is fully responsive and adapts seamlessly to desktop, tablet, and mobile screens.
-- **Modern Aesthetics:** A visually appealing design with smooth animations, gradients, and box shadows.
+![Preview](./assets/preview.png) <!-- Substitua pelo caminho da sua imagem/GIF -->
 
-## Technologies Used
+## ⚡ Features
 
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white):   For the basic structure and content of the web page.
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white):   For styling, layout (Flexbox & Grid), animations, and responsiveness.
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black):   For application logic, DOM manipulation, and handling asynchronous API requests with `async/await` and the `fetch` API.
+- Real-time weather data by city name
+- Current temperature (°C), wind speed (km/h), wind direction, and description
+- Responsive design for desktop, tablet, and mobile
+- Loading states and error messages
+- Smooth animations and modern UI
 
+## 🛠️ Technologies
 
-## Setup and Installation
+- HTML5
+- CSS3 (Flexbox & Grid, Animations)
+- JavaScript (ES6+, fetch API, async/await)
 
-This project is a static web application and does not require a build process or special server.
+## 🚀 Getting Started
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/kayandenizo/climatempo-project.git
-    ```
+1. **Clone the repo:**
+```bash
+git clone https://github.com/KayanDenizo/climatempo-project.git
+````
 
-2.  **Navigate to the project directory:**
-    ```bash
-    cd climatempo-project
-    ```
+2. **Navigate to the project:**
 
-3.  **Add your API Key:**
-    The project uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data. You'll need to get your own free API key.
+```bash
+cd climatempo-project
+```
 
-    - Open the `script.js` file.
-    - Find the following line of code:
-      ```javascript
-      const results = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=8ee2b7b80481b9c67e4d3b83a1bf6055&units=metric&lang=pt_br`);
-      ```
-    - Replace the existing API key (`8ee2b7b80481b9c67e4d3b83a1bf6055`) with your own key.
+3. **Add your OpenWeatherMap API key:**
 
-4.  **Run the application:**
-    Simply open the `index.html` file in your favorite web browser.
+```javascript
+const results = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(input)}&appid=YOUR_API_KEY&units=metric&lang=pt_br`);
+```
 
-## How to Use
+4. **Open `index.html` in your browser** to start using the app.
 
-1.  Open the `index.html` file in a web browser.
-2.  In the search box, type the name of the city you want to check.
-3.  Click the "Buscar" (Search) button or press the `Enter` key.
-4.  The current weather information for the specified city will be displayed below the search bar.
+## 📝 How to Use
 
-## Credits
+1. Type the city name in the search box.
+2. Press **Enter** or click **Buscar**.
+3. View the current weather data displayed below the search box.
 
-This project was created by **Kayan Denizo**.
+## 🎨 Screenshots / GIFs
+
+![Example](./assets/preview.gif) <!-- Substitua com seu GIF ou imagem real -->
+
+## 🙏 Credits
+
+Created by **Kayan Denizo**.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+```
+
+---
+
+Algumas dicas extras:  
+- **Preview/GIF**: faz um pequeno vídeo ou gravação da tela mostrando a busca do clima, converte em GIF e coloca na pasta `assets`.  
+- **Badges**: já estão no topo, mas você pode adicionar `build status` se algum dia usar CI/CD.  
+- **Licença**: crie um arquivo `LICENSE` com MIT ou outra de sua preferência.  
+
+Se quiser, posso até te sugerir **uma versão bilingue compacta**, português + inglês, que deixa o repo pronto pra qualquer recrutador internacional. Quer que eu faça?
+```
