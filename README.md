@@ -1,4 +1,4 @@
-<img width="1094" height="910" alt="image" src="https://github.com/user-attachments/assets/6b6b2b35-8e8a-4997-8856-cd736121caf6" /># 🌤️ Clima Tempo - Weather App
+# 🌤️ Clima Tempo - Weather App
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
@@ -54,7 +54,7 @@ const results = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=$
 
 ## 🎨 Screenshots / GIFs
 
-![Example](<img width="1094" height="910" alt="image" src="https://github.com/user-attachments/assets/1082bca2-f0d7-466a-b73a-57e3d25594a3" />) <!-- Substitua com seu GIF ou imagem real -->
+<img width="1094" height="910" alt="image" src="https://github.com/user-attachments/assets/6b6b2b35-8e8a-4997-8856-cd736121caf6" />
 
 ## 🙏 Credits
 
