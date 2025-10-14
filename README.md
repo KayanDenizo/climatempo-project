@@ -15,9 +15,9 @@ Clima Tempo is a clean and simple web application that provides real-time weathe
 
 ## Technologies Used
 
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white): For the basic structure and content of the web page.
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white): For styling, layout (Flexbox & Grid), animations, and responsiveness.
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black): For application logic, DOM manipulation, and handling asynchronous API requests with `async/await` and the `fetch` API.
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white):   For the basic structure and content of the web page.
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white):   For styling, layout (Flexbox & Grid), animations, and responsiveness.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black):   For application logic, DOM manipulation, and handling asynchronous API requests with `async/await` and the `fetch` API.
 
 
 ## Setup and Installation
