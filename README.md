@@ -65,13 +65,3 @@ Created by **Kayan Denizo**.
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ```
-
----
-
-Algumas dicas extras:  
-- **Preview/GIF**: faz um pequeno vídeo ou gravação da tela mostrando a busca do clima, converte em GIF e coloca na pasta `assets`.  
-- **Badges**: já estão no topo, mas você pode adicionar `build status` se algum dia usar CI/CD.  
-- **Licença**: crie um arquivo `LICENSE` com MIT ou outra de sua preferência.  
-
-Se quiser, posso até te sugerir **uma versão bilingue compacta**, português + inglês, que deixa o repo pronto pra qualquer recrutador internacional. Quer que eu faça?
-```
