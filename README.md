@@ -9,7 +9,7 @@
 
 **Clima Tempo** is a clean, responsive web app that provides real-time weather forecasts for any city in the world. It uses the OpenWeatherMap API to fetch current weather data like temperature, wind speed, wind direction, and description.  
 
-![Preview](https://kayandenizo.github.io/climatempo-project/) <!-- Substitua pelo caminho da sua imagem/GIF -->
+[Preview](https://kayandenizo.github.io/climatempo-project/) <!-- Substitua pelo caminho da sua imagem/GIF -->
 
 ## ⚡ Features
 
