@@ -1,4 +1,4 @@
-# 🌤️ Clima Tempo - Weather App
+<img width="1094" height="910" alt="image" src="https://github.com/user-attachments/assets/6b6b2b35-8e8a-4997-8856-cd736121caf6" /># 🌤️ Clima Tempo - Weather App
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
@@ -9,7 +9,7 @@
 
 **Clima Tempo** is a clean, responsive web app that provides real-time weather forecasts for any city in the world. It uses the OpenWeatherMap API to fetch current weather data like temperature, wind speed, wind direction, and description.  
 
-![Preview](./assets/preview.png) <!-- Substitua pelo caminho da sua imagem/GIF -->
+![Preview](https://kayandenizo.github.io/climatempo-project/) <!-- Substitua pelo caminho da sua imagem/GIF -->
 
 ## ⚡ Features
 
@@ -54,7 +54,7 @@ const results = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=$
 
 ## 🎨 Screenshots / GIFs
 
-![Example](./assets/preview.gif) <!-- Substitua com seu GIF ou imagem real -->
+![Example](<img width="1094" height="910" alt="image" src="https://github.com/user-attachments/assets/1082bca2-f0d7-466a-b73a-57e3d25594a3" />) <!-- Substitua com seu GIF ou imagem real -->
 
 ## 🙏 Credits
 
